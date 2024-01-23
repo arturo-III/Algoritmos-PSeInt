@@ -8,44 +8,27 @@ Algoritmo ordenamiento
 		Mostrar "ERROR: los valores deben ser distintos"
 		
 	SiNo
+		Mostrar "Numeros ordenados:"
 		si (a>b) Entonces
 			si (a>c) Entonces
 				si (c>b) Entonces
-					Mostrar "Numeros ordenados:"
-					Mostrar a
-					Mostrar c
-					Mostrar b
+					Mostrar a ", " c ", " b
 				SiNo
-					Mostrar "Numeros ordenados:"
-					Mostrar a
-					Mostrar b
-					Mostrar c
+					Mostrar a ", " b ", " c
 				FinSi
 			SiNo
-				Mostrar "Numeros ordenados:"
-				Mostrar c
-				Mostrar a
-				Mostrar b
+				Mostrar c ", " a ", " b
 			FinSi
 		SiNo
 			si (b>c) Entonces
 				si (a>c) Entonces
-					Mostrar "Numeros ordenados:"
-					Mostrar b
-					Mostrar a
-					Mostrar c
+					Mostrar b ", " a ", " c
 				SiNo
-					Mostrar "Numeros ordenados:"
-					Mostrar b
-					Mostrar c
-					Mostrar a
+					Mostrar b ", " c ", " a
 				FinSi
 			SiNo
-				Mostrar "Numeros ordenados:"
-				Mostrar c
-				Mostrar b
-				Mostrar a
+				Mostrar c ", " b ", " a
 			FinSi
 		FinSi
 	FinSi
-FinAlgoritmo
+FinAlgoritmO
