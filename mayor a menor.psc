@@ -1,10 +1,12 @@
 //Ordena de mayor a menor
+//Para crear el algoritmo de menor a mayor se intercambian los signos '<' y '>' 
 Algoritmo ordenamiento
 	definir a,b,c Como Entero
 	Mostrar "Ingrese tres valores distintos:"
 	Leer a,b,c
-	
-	Si (a=b) o (b=c) o (c=a) Entonces
+
+ //Si los valores son iguales manda un mensaje
+	Si (a=b) o (b=c) o (c=a) Entonces 
 		Mostrar "ERROR: los valores deben ser distintos"
 		
 	SiNo
