@@ -1,3 +1,5 @@
+//Calculadora basica 
+// El signo '/' significa salto de linea
 Algoritmo Calculadora
 	Definir a,b Como Real
 	Definir sig Como Caracter
