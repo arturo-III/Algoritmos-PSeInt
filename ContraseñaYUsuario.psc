@@ -1,8 +1,9 @@
+// No permite acceder a la siguiente instruccion hasta poner el usuario y contraseÃ±a correctos
 Algoritmo Usuario
-	Mientras (usu<>"asd") o (pass<>"123") Hacer             // Usuario y contraseña
+	Mientras (usu<>"asd") o (pass<>"123") Hacer             
 		Escribir "Ingrese Usuario:"
 		Leer usu
-		Escribir "Ingrese contraseña:"
+		Escribir "Ingrese contraseÃ±a:"
 		Leer pass
 		Borrar Pantalla
 		Si (usu<>"asd") o (pass<>"123") Entonces
