@@ -1,3 +1,4 @@
+//Calcula el factorial de un numero
 Algoritmo factorial
 	Definir n Como Entero
 	Leer n
