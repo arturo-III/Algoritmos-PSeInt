@@ -1,3 +1,4 @@
+// Calcula el doble factorial de un numero
 Algoritmo DobleFactorial
 	Definir x Como Entero
 	definir np Como Caracter
