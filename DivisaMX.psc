@@ -1,3 +1,4 @@
+// Convierte de pesos mexicanos a moneda extranjera
 Algoritmo DivisaMX
 	definir peso como real
 	definir moneda, Nac Como Caracter
